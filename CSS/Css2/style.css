@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Oswald.ttf";
+    src: url("CSS\Css2\Oswald\Oswald-Heavy.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Oswald-Heavy.ttf";
+    src: url("CSS\Css2\Oswald\Oswald-Heavy.ttf");
+    font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+html {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: red;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: normal;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Roboto';
+}
+
+#bio-header {
+    color: brown;
+}
+
+#skills-header {
+    color:greenyellow;
+}
+
+p {
+    color: grey;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    color: rebeccapurple;
+}
+
+.bold {
+    color: aqua;
+    font-weight: bold;
+}
+
+.img-div {
+    background-color: black;
+
+}
+
+.light {
+    background-color: blue;
+}
+
+img {
+    width: 11.9%;
+    /*height: 200px;*/
+    margin: 20px;
+    box-shadow:  3px 3px 7px yellow;
+
+}
+
+#img1 {
+   /* display: none; - nem fog látszani az oldalon*/
+   visibility: hidden; /*- nem fog látszani de a helye igen*/
+}

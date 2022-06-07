@@ -59,24 +59,29 @@
             <div class="col-3"></div>
             <div class="col-6">
                 <h3>Hamburger ordering</h3>
-                <form action="">
-                    <div class="fomr-group">
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <strong>Dear customer!</strong>
+                    Please fill the input areas!
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="orderForm" action="">
+                    <div class="form-group">
                         <label for="">Top</label>
-                        <input type="text" name="top-input" class="form-control">
+                        <input id="topInput" type="text" name="top-input" class="form-control">
                     </div>
-                    <div class="fomr-group">
+                    <div class="form-group">
                         <label for="">Quantity</label>
                         <input type="text" name="amount-input" class="form-control" value="1">
                         <small class="form-text text-muted">
                             Min 1, max 10 pcs
                         </small>
                     </div>
-
                     <div class="form-group">
                         Cost: <span class="show-amount">0</span> Ft
                     </div>
-                   
-                    <button onclick="calcAmount()" type="button" class="btn btn-primary">Order</button>
+                    <button type="submit" class="btn btn-primary">Order</button>
                 </form>
 
 
@@ -100,7 +105,7 @@
     </div> -->
 
     <script src="js/main.js"></script>
-    <script src="js/scope.js"></script>
+    <script src="js/algo.js"></script>
 
 </body>
 
